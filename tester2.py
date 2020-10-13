@@ -18,9 +18,8 @@ while True:
         blue = randint(0, 60)
 
     g = gesture.read()
+    print(g)
     if g == 'up':
         np.show()
-        print(g)
     elif g == 'down':
         np.clear()
-        print(g)
